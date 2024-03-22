@@ -5,4 +5,5 @@ result = list(filter(lambda x: x % 2 == 0, numbers))
 
 print(result)
 
-square = lambda x, y ; x**y print (square(10,2))
+square= lambda a: a*10
+print(square(10))
